@@ -1,0 +1,11 @@
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/B2cIntegrationApplication.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/config/KafkaConfig.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/config/MongoConfig.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/controller/B2CController.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/dto/B2CRequestDTO.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/dto/B2CResponseDTO.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/model/B2CTransaction.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/repository/B2CTransactionRepository.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/service/B2CService.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/service/KafkaProducerService.java
+/home/ouma/Development/code/b2c/b2c-integration/src/main/java/com/example/b2c_integration/util/EncryptionUtil.java
