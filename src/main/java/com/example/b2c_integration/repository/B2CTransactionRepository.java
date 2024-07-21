@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface B2CTransactionRepository extends MongoRepository<B2CTransaction, String> {
-    // Custom query methods if needed
+    B2CTransaction findByTransactionId(String transactionId);
 }

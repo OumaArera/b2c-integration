@@ -1,17 +1,9 @@
-# Use the official OpenJDK image from the Docker Hub
-FROM openjdk:11-jdk-slim
+FROM openjdk:21-jdk-slim
 
-# Add Maintainer Info
-LABEL maintainer="johnouma999@gmail.com"
+WORKDIR /app
 
-# Add a volume pointing to /tmp
-VOLUME /tmp
+COPY . /app
 
-# The application's jar file
-ARG JAR_FILE=target/b2c-integration-1.0.0.jar
+EXPOSE 8080
 
-# Add the application's jar to the container
-COPY ${JAR_FILE} app.jar
-
-# Run the jar file
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+ENTRYPOINT ["java", "-jar", "target/b2c-integration-0.0.1-SNAPSHOT.jar"]

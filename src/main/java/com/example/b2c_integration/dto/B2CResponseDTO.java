@@ -1,35 +1,31 @@
 package com.example.b2c_integration.dto;
 
 public class B2CResponseDTO {
+    private String transactionId;
+    private String status;
+    private String message;
 
-    private String conversationID;
-    private String originatorConversationID;
-    private String responseCode;
-    private String responseDescription;
-    public String getConversationID() {
-        return conversationID;
+    
+    public String getTransactionId() {
+        return transactionId;
     }
-    public void setConversationID(String conversationID) {
-        this.conversationID = conversationID;
+    public void setTransactionId(String transactionId) {
+        this.transactionId = transactionId;
     }
-    public String getOriginatorConversationID() {
-        return originatorConversationID;
+    public String getStatus() {
+        return status;
     }
-    public void setOriginatorConversationID(String originatorConversationID) {
-        this.originatorConversationID = originatorConversationID;
+    public void setStatus(String status) {
+        this.status = status;
     }
-    public String getResponseCode() {
-        return responseCode;
+    public String getMessage() {
+        return message;
     }
-    public void setResponseCode(String responseCode) {
-        this.responseCode = responseCode;
+    public void setMessage(String message) {
+        this.message = message;
     }
-    public String getResponseDescription() {
-        return responseDescription;
-    }
-    public void setResponseDescription(String responseDescription) {
-        this.responseDescription = responseDescription;
-    }
+
+    
 
     
 }
